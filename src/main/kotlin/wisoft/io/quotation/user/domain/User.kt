@@ -7,7 +7,7 @@ import org.springframework.data.annotation.CreatedDate
 import org.springframework.data.annotation.LastModifiedDate
 import java.sql.Timestamp
 
-@Entity
+@Entity(name = "app_user")
 class User(
     @Id
     var id: String,
